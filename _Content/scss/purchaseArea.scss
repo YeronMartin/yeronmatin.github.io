@@ -1,0 +1,190 @@
+.purchaseArea{
+    position: relative;
+    width: 50%;
+
+    *{
+        margin-bottom: 10px;
+    }
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+    .nameArea{
+        
+        display: grid;
+        grid-template: max-content max-content max-content max-content  / max-content;
+        grid-auto-flow: column;
+
+        .scientificName{
+            font-size: 1.7em;
+        }
+        .newTag{
+            grid-area: 1/ 1/ 1/1;
+            color: #FF89A5;
+            font-size: x-large;
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        .prize{
+            font-size: 1.5em;
+            text-align: center;
+            span{
+                color: #FF89A5;
+                font-size: 1.5em;
+
+                text-align: center;
+                text-decoration: none;
+            }
+        }
+        h1{
+            grid-area: 2/ 1/ 2/1;
+            margin: 0;
+            width: 100%;
+            font-size: 2.7em;
+            
+        }
+        .scientificName{
+            margin: 0;
+            text-align: center;
+            font-size: 1.3em;
+        }
+    }
+
+    .colorSelectorArea{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 25%;
+            padding:0;
+            margin-left: 15px;
+            box-shadow: none;
+            outline: none;
+            border: none;
+        }
+        
+    }
+
+    .counterBox{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(140, 140, 140, 0.1);
+        width: 40%;
+        border-radius: 30px;
+
+        
+
+        p{
+            font-size: 1.7em;
+            margin: 0;
+        }
+        img{
+            margin: 0;
+            box-shadow: none;
+            outline: none;
+            border: none;
+        }
+    }
+
+    .buyBox{
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+
+        button{
+            border-radius: 30px;
+            height: 50px;
+            margin: 0;
+            font-size: 1.1em;
+            width: 80%;
+        }
+        .heart{
+            height: auto;
+            margin: 0;
+            border: none;
+            box-shadow: none;
+            outline: none;
+        }
+        .heart:hover{
+            transform: scale(1.1);
+            src: url(../images/PlantCore/PurchaseArea/Heart_filled.svg);
+        }
+    }
+
+    .purchaseDetails{
+        div{
+            display: grid;
+            align-items: center;
+            grid-template: max-content/ 50px 350px;
+
+            img{
+                width: 100%;
+            }
+            p{
+                text-align: justify;
+                padding-left: 20px;
+                font-size: 1.5em;
+                margin: 0;
+            }
+            span{
+                color: #FF89A5;
+            }
+        }
+    }
+}
+
+.btn-outline-success{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(25, 171, 17);
+    background-color: #ffffff00;
+    border-color: rgb(25, 171, 17);
+}
+.btn-outline-success:hover{
+    color:#ffffff;
+    background-color: rgb(25, 171, 17);
+    border-color:  rgb(25, 171, 17);
+
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 768px) {
+    .purchaseArea .counterBox{
+        width: 60%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .purchaseArea .nameArea .newTag,
+    .purchaseArea .nameArea .prize span
+    {
+        font-size: 1.2em;
+    }
+    .purchaseArea .nameArea h1{
+        font-size: 2.5em;
+    }
+    .purchaseArea{
+        width: 100%;
+    }
+    .purchaseArea .nameArea .scientificName{
+        font-size: 1.2em;
+    }
+
+    .purchaseArea .purchaseDetails div p{
+        font-size: 1.2em;
+    }
+
+    .purchaseArea .counterBox{
+        width: 70%;
+    }
+    .purchaseArea .buyBox{
+        width: 90%;
+    }
+    .purchaseArea .purchaseDetails div
+    {
+        grid-template: max-content / 40px 260px;
+    }
+}
