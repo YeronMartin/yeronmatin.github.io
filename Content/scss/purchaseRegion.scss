@@ -1,0 +1,25 @@
+.purchaseRegion{
+    background-color: white;
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+    .puchaseImageBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        img{
+            height: 100%;
+        }
+    }    
+}
+
+@media only screen and (max-width: 768px) {
+    .purchaseRegion{
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .purchaseRegion .puchaseImageBox {
+        height: 300px;
+    }
+}

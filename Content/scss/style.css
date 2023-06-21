@@ -1,0 +1,21 @@
+@import url("../css/bootstrap.min.css");
+@import url("../../owl_carousel/owl.theme.default.css");
+@import url("../../owl_carousel/owl.carousel.css");
+@import url("../css/main.css");
+@import url("../css/sales.css");
+@import url("../css/header.css");
+@import url("../css/navbar.css");
+@import url("../css/breadcrumbs.css");
+
+@import url("../css/purchaseRegion.css");
+@import url("../css/purchaseArea.css");
+@import url("../css/purchaseCarousel.css");
+
+@import url("../css/description.css");
+@import url("../css/cards.css");
+
+@import url("../css/watering.css");
+@import url("../css/otherProducts.css");
+
+
+@import url("../css/footer.css");

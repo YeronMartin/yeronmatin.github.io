@@ -1,0 +1,73 @@
+.otherProducts{
+
+    width: 90%;
+    
+    .regionTitle{
+        font-size:xx-large;
+        text-align:justify;
+        color: #8C8C8C;
+    }
+
+    .item{
+        div{
+            display: flex;
+            justify-content: center;
+        }
+        div img{
+            text-align: center;
+            max-width: 200px;
+            min-width : 100px;
+
+        }
+        .prizeBox{
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            .discount{
+                color: #FF89A5;
+                font-size: 1.5em;
+                padding-left: 10px;
+            }
+            .basePrize{
+                color: #8C8C8C;
+                text-decoration: line-through;
+            }
+        }
+        
+    }
+}
+
+
+//huybjvhy 
+
+.owl-nav{
+    position: absolute;
+    width: 100%;
+    button span{
+        color: #8C8C8C;
+        font-size: 60px;
+    }
+}
+
+
+
+.carousel-item{
+    transition: 0.5s;
+}
+.card-wrapper{
+    display: flex;
+    div{
+        width: 200px;
+    }
+}
+.a{
+    height: 200px;
+    background-color: #FF89A5;
+}
+.b{
+    height: 200px;
+    background-color: #8C8C8C;
+}
+
+@media screen and (max-width: 678px) {
+}

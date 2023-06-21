@@ -1,0 +1,89 @@
+.cardBox {
+  width: 100%;
+  margin: 0; }
+  .cardBox .card {
+    background: none;
+    border: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden; }
+    .cardBox .card .backgroundBox_1 {
+      position: absolute;
+      top: -30px;
+      right: -30px;
+      width: 350px;
+      z-index: -1; }
+      .cardBox .card .backgroundBox_1 img {
+        width: 100%; }
+  .cardBox .card-right {
+    height: 50vh;
+    width: 49.5%;
+    margin-left: 0.35em; }
+    .cardBox .card-right .card-body {
+      position: absolute;
+      bottom: 10px; }
+    .cardBox .card-right .backgroundBox_3 {
+      position: absolute;
+      top: 0%;
+      left: 50%;
+      width: 250px;
+      transform: translate(-50%, 0%);
+      z-index: -1; }
+      .cardBox .card-right .backgroundBox_3 img {
+        width: 100%; }
+  .cardBox .card-left {
+    height: 50vh;
+    width: 49.5%;
+    margin-right: 0.35em; }
+    .cardBox .card-left .card-body {
+      position: absolute;
+      bottom: 10px; }
+    .cardBox .card-left .backgroundBox_2 {
+      position: absolute;
+      top: -20%;
+      left: -20%;
+      width: 250px;
+      z-index: -1; }
+      .cardBox .card-left .backgroundBox_2 img {
+        width: 100%; }
+  .cardBox .card-header {
+    background-color: #ffffff; }
+  .cardBox .card-text {
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%; }
+  .cardBox .categoryBase {
+    font-size: large;
+    margin-bottom: 0%; }
+  .cardBox .categoryTitle {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 0%; }
+  .cardBox a {
+    color: #45A6FF; }
+
+@media only screen and (min-width: 730px) and (max-width: 1000px) {
+  .cardBox .card-right {
+    width: 49.5%;
+    margin-left: 0.25em; }
+
+  .cardBox .card-left {
+    width: 49.5%;
+    margin-right: 0.25em; } }
+@media only screen and (min-width: 650px) and (max-width: 730px) {
+  .cardBox .card-right {
+    width: 49.5%;
+    margin-left: 0.22em; }
+
+  .cardBox .card-left {
+    width: 49.5%;
+    margin-right: 0.22em; } }
+@media only screen and (max-width: 650px) {
+  .cardBox .card-right, .cardBox .card-left {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0; } }
+
+/*# sourceMappingURL=cards.css.map */
