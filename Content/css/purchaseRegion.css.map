@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAe;EACX,gBAAgB,EAAE,KAAK;EACvB,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,GAAG;EAEnB,gCAAgB;IACZ,OAAO,EAAE,IAAI;IACb,eAAe,EAAE,MAAM;IACvB,WAAW,EAAE,MAAM;IACnB,MAAM,EAAE,KAAK;IACb,oCAAG;MACC,MAAM,EAAE,IAAI;;AAKxB,yCAA0C;EACtC,eAAe;IACX,WAAW,EAAE,IAAI;IACjB,cAAc,EAAE,IAAI;;EAExB,gCAAiC;IAC7B,MAAM,EAAE,KAAK",
+"sources": ["../scss/purchaseRegion.scss"],
+"names": [],
+"file": "purchaseRegion.css"
+}

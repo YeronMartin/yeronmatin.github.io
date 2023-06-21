@@ -1,0 +1,22 @@
+@use "sass:meta";
+:root {
+  --bs-primary:#19ab11; }
+
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+p {
+  color: #8C8C8C; }
+
+.regionTitle h2 {
+  font-size: 2.5em;
+  text-align: center;
+  color: #8C8C8C; }
+
+.schedule-item {
+  padding-inline: 7%; }
+
+/*# sourceMappingURL=main.css.map */

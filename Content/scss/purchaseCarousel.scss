@@ -1,0 +1,25 @@
+
+.purchase_carousel{
+    .owl-stage-outer{
+        background-color: #bebebe;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+   
+    
+    .owl-dots .owl-dot span{
+
+        width: 40px;
+        height: 6px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .purchaseCarousel{
+        .row .col-12 .carousel .carousel-inner .item .row .col{
+            width: 50%;
+        }
+    }
+}
