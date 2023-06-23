@@ -1,0 +1,50 @@
+.userButtons {
+  margin: 0px 10px 0px 10px; }
+  .userButtons li {
+    z-index: 1; }
+    .userButtons li .boxImg {
+      height: 50px; }
+      .userButtons li .boxImg button {
+        height: 100%; }
+        .userButtons li .boxImg button img {
+          height: 100%; }
+      .userButtons li .boxImg .cartButton {
+        position: relative; }
+        .userButtons li .boxImg .cartButton #cartSpan {
+          position: absolute;
+          top: 0;
+          right: 0;
+          background-color: #FF89A5;
+          width: 25px;
+          height: 25px;
+          border-radius: 30px;
+          margin: 0;
+          color: white;
+          vertical-align: middle; }
+    .userButtons li p {
+      visibility: hidden;
+      opacity: 0%;
+      margin: 0;
+      width: auto;
+      height: 0; }
+
+@media only screen and (max-width: 767px) {
+  .userButtons {
+    display: flex;
+    margin: 10px 0px 0px 0px !important;
+    justify-content: center;
+    flex-direction: row; }
+    .userButtons li {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 0; }
+      .userButtons li p {
+        visibility: visible;
+        opacity: 100%;
+        height: auto;
+        color: white;
+        font-size: 1.3em; } }
+
+/*# sourceMappingURL=userButtons.css.map */

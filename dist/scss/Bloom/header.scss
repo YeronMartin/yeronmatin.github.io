@@ -1,0 +1,39 @@
+.header{
+
+    background-color:rgb(25, 171, 17);
+    position: -webkit-sticky;
+    position: sticky;
+    overflow: hidden;
+
+    
+    .headerBackgroud{
+        position: relative;
+
+        .leaf_1{
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .leaf_2{
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        
+    }
+
+    .btn-outline-success{
+        margin-left: 5px;
+        margin-right: 5px;
+        color: #ffffff;
+        border-color: #ffffff;
+    }
+    .btn-outline-success:hover{
+        color: rgb(25, 171, 17);
+        background-color: #ffffff;
+        border-color: #ffffff;
+    
+    }
+    
+}
+

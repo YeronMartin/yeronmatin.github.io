@@ -1,0 +1,10 @@
+.descriptionRegion .descriptionText {
+  font-size: 1.2em;
+  text-align: justify;
+  padding: 0px 40px 0px 40px; }
+
+@media only screen and (max-width: 500px) {
+  .descriptionRegion .descriptionText {
+    padding: 0px 20px 0px 20px; } }
+
+/*# sourceMappingURL=description.css.map */

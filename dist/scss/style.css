@@ -1,0 +1,38 @@
+/*BOOTSTRAP*/
+@import url("../css/bootstrap.min.css");
+
+/*OWL CAROUSEL*/
+@import url("../../owl_carousel/owl.theme.default.css");
+@import url("../../owl_carousel/owl.carousel.css");
+
+/*BLOOM*/
+    /*Header*/
+    @import url("../css/Bloom/main.css");
+    @import url("../css/Bloom/sales.css");
+    @import url("../css/Bloom/header.css");
+    @import url("../css/Bloom/navbar.css");
+    @import url("../css/Bloom/searchForm.css");
+    @import url("../css/Bloom/userButtons.css");
+    @import url("../css/Bloom/breadcrumbs.css");
+
+    /*Purchase Area*/
+    @import url("../css/Bloom/purchaseRegion.css");
+    @import url("../css/Bloom/purchaseArea.css");
+    @import url("../css/Bloom/purchaseCarousel.css");
+
+    /*Description Area*/
+    @import url("../css/Bloom/description.css");
+    @import url("../css/Bloom/cards.css");
+
+    /*Watering Area*/
+    @import url("../css/Bloom/watering.css");
+
+    /*Other Products Area*/
+    @import url("../css/Bloom/otherProducts.css");
+
+    /*Footer Area*/
+    @import url("../css/Bloom/footer.css");
+
+/*LOG IN*/
+    @import url("../css/LogIn/logIn.css");
+
