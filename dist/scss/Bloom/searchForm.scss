@@ -1,0 +1,43 @@
+.headerRegion{
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 30px;
+        width: 60%;
+        z-index: 1;
+
+        input{
+            background: none;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            font-size: 1.2em;
+            
+        }
+        input:focus{
+            border: none;
+            outline: none;
+            box-shadow: none;
+            background: none;
+        }
+
+        button{
+            padding: 0%;
+            img{
+                height: 30px;
+                margin-right: 5px;
+            }
+        }
+        
+    }
+}
+@media only screen and (max-width: 767px) {
+    .headerRegion form{
+            width: auto;
+            margin: 0% 10%;
+            justify-self: center;
+            align-self: center;
+    }
+}
