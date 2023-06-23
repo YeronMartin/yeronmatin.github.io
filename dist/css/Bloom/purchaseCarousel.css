@@ -1,0 +1,19 @@
+.purchase_carousel {
+  padding: 0px; }
+  .purchase_carousel .owl-stage-outer {
+    background-color: #bebebe;
+    padding: 10px 0px 10px 0px; }
+    .purchase_carousel .owl-stage-outer .owl-stage .owl-item {
+      background-color: black;
+      height: 230px; }
+    .purchase_carousel .owl-stage-outer .owl-stage img {
+      height: 100%; }
+  .purchase_carousel .owl-dots .owl-dot span {
+    width: 40px;
+    height: 6px; }
+
+@media only screen and (max-width: 768px) {
+  .purchaseCarousel .row .col-12 .carousel .carousel-inner .item .row .col {
+    width: 50%; } }
+
+/*# sourceMappingURL=purchaseCarousel.css.map */

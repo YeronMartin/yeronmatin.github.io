@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,kBAAkB;EACd,OAAO,EAAE,GAAG;EACZ,mCAAgB;IACZ,gBAAgB,EAAE,OAAO;IACzB,OAAO,EAAE,iBAAiB;IAItB,wDAAS;MACL,gBAAgB,EAAE,KAAK;MACvB,MAAM,EAAE,KAAK;IAEjB,kDAAG;MACC,MAAM,EAAE,IAAI;EAMxB,0CAAuB;IAEnB,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,GAAG;;AAMnB,yCAA0C;EAElC,wEAAsD;IAClD,KAAK,EAAE,GAAG",
+"sources": ["../../scss/Bloom/purchaseCarousel.scss"],
+"names": [],
+"file": "purchaseCarousel.css"
+}
