@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEI,mCAAgB;EACZ,gBAAgB,EAAE,OAAO;EACzB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;AAIxB,0CAAuB;EAEnB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,GAAG;;AAMnB,yCAA0C;EAElC,wEAAsD;IAClD,KAAK,EAAE,GAAG",
-"sources": ["../scss/purchaseCarousel.scss"],
-"names": [],
-"file": "purchaseCarousel.css"
-}
