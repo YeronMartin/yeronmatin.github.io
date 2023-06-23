@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAKI,mCAAgB;EACZ,SAAS,EAAE,KAAK;EAChB,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,iBAAiB;;AAIlC,yCAA0C;EAGlC,mCAAgB;IACZ,OAAO,EAAE,iBAAiB",
-"sources": ["../../scss/Bloom/description.scss"],
-"names": [],
-"file": "description.css"
-}
