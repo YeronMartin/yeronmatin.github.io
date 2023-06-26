@@ -33,6 +33,23 @@
     /*Footer Area*/
     @import url("../css/Bloom/footer.css");
 
-/*LOG IN*/
-    @import url("../css/LogIn/logIn.css");
+/*FAKEFLIX*/
+    /*Toolbar*/
+    @import url("../css/Fakeflix/sections.css");
 
+    @import url("../css/Fakeflix/main.css");
+    @import url("../css/Fakeflix/navbar.css");
+    @import url("../css/Fakeflix/toolbar.css");
+
+    @import url("../css/Fakeflix/spotItem.css");
+
+    @import url("../css/Fakeflix/contentRegion.css");
+
+    @import url("../css/Fakeflix/comingItems.css");
+
+    @import url("../css/Fakeflix/searchSection.css");
+
+    @import url("../css/Fakeflix/downloadsSection.css");
+    @import url("../css/Fakeflix/warning.css");
+
+    @import url("../css/Fakeflix/moreSection.css");
