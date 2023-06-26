@@ -1,0 +1,91 @@
+$fakeflix_lightgrey_1: rgb(39, 39, 39);
+$fakeflix_lightgrey_2: rgb(140, 140, 140);
+
+
+.SearchSection{
+    height: 100%;
+    .searchForm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: $fakeflix_lightgrey_1;
+        padding: 10px 0px;
+        margin: 10px;
+        border-radius: 5px;
+
+        form{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        img{
+            position: absolute;
+            top: 50%;
+            transform: translate(-150%, -50%);
+            width: 30px;
+            filter: brightness(50%);
+           
+        }
+        input.form-control{
+            background: none;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            padding: 0px 0px 0px 10px;
+            width: 100%;
+            color: $fakeflix_lightgrey_2;
+            text-align: center;
+        }
+
+        input[type="search"]::-webkit-search-decoration,
+        input[type="search"]::-webkit-search-cancel-button,
+        input[type="search"]::-webkit-search-results-button,
+        input[type="search"]::-webkit-search-results-decoration { 
+            display: none; 
+        }
+    }
+
+    .listedGenres {
+        padding: 0;
+        ul{
+            padding: 0;
+            list-style-type: none;
+            li{
+                width: 100%;
+                text-align: center;
+                padding: 10px 0px;
+
+                p{
+                    margin: 0;
+                    font-size: 1.2em;
+                }
+            }
+
+            li:hover{
+                background-color: $fakeflix_lightgrey_1;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 270px){
+    .SearchSection{
+        li {
+                p{
+                    font-size: 1em !important;
+                }
+            }
+        
+        input.form-control{
+            font-size: 1em !important;
+        }
+
+        form img{
+            width: 20px !important;
+        }
+       
+    }
+}

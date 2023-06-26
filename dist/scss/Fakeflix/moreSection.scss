@@ -1,0 +1,103 @@
+$fakeflix_lightgrey_1: rgb(39, 39, 39);
+
+.MoreSection{
+    height: 100%;
+    .profiles{
+        margin: 25px 0px;
+        .profilesBox{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .boxImg{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+                margin: 0;
+            }
+            img{
+                height: 50px;
+            }
+            .plusButton{
+                background-color: $fakeflix_lightgrey_1;
+                border-radius: 30px;
+            }
+        }
+        .manageProfiles{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0px;
+            .boxImg{
+                height: 20px;
+                margin: 0px 10px;
+                img{
+                    height: 100%;
+                }
+            }
+            p{
+                margin: 0;
+            }
+
+        }
+    }
+
+    .settings div{
+        padding: 0;
+        ul{
+            list-style-type: none;
+            padding: 0;
+            background-color: $fakeflix_lightgrey_1;
+
+            li{
+                padding: 10px 10px;
+                p{
+                    margin: 0px;
+                }
+            }
+        }
+    }
+
+    .notifications{
+        background-color: $fakeflix_lightgrey_1;
+        padding:10px 0px;
+        margin-bottom: 2px;
+        margin-top: 2px;
+
+        div{
+            display: flex;
+            justify-content: space-between;
+            .titleBox{
+                p{
+                    margin: 0px 10px;
+                }
+            }
+        }
+        img{
+            width: 20px;
+        }
+        
+    }
+
+    .wishlist{
+        background-color: $fakeflix_lightgrey_1;
+        padding:10px 0px;
+        margin-bottom: 2px;
+        margin-top: 2px;
+
+        div{
+            display: flex;
+            justify-content: space-between;
+            .titleBox{
+                p{
+                    margin: 0px 10px;
+                }
+            }
+        }
+        img{
+            width: 20px;
+        }
+        
+    }
+}

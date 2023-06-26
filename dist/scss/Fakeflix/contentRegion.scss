@@ -1,0 +1,95 @@
+$fakeflix_red: rgb(200, 57, 46);
+$fakeflix_lightgrey_1: rgb(39, 39, 39);
+$fakeflix_lightgrey_2: rgb(26, 26, 26);
+$fakeflix_darkgrey : rgb(17, 17, 17);
+
+
+.contentRegion{
+
+    .row{
+        margin-top: 15px;
+    }
+    img{
+        height: 100%;
+    }
+
+    .btn{
+        padding: 0;
+    }
+
+    .owl-stage-outer{
+        .owl-stage{
+            height: 150px;
+            .owl-item{
+                height: 150px; 
+                .item{
+                    height: 100%;
+                }
+                .caratulaBox{
+                    height: 150px;
+                    position: relative;
+                    .playButton{
+                        position: absolute;
+                        top:50%;
+                        height: 60px;
+                        transform: translate(0%, -50%);
+                    }
+                    .caratula{
+                        height: 100%;
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .continueCarousel{
+        .owl-stage{
+            height: 190px;
+            .owl-item{
+                height: 190px; 
+                .item{
+                    height: 100%;
+                }
+                .caratula{
+                    height: 150px;
+                }
+            }
+        }
+    }
+
+    .item{
+        position: relative;
+
+        .progress{
+            height:5px;
+            z-index: 1;
+            border-radius: 0;
+            background-color: $fakeflix_lightgrey_1;
+            .progress-bar{
+                background-color: $fakeflix_red;
+            }
+        }
+
+        .itemInfo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:5px 0px;
+            background-color: $fakeflix_darkgrey;
+
+            img{
+                width: 20px !important;
+                filter: brightness(50%);
+            }
+            p{
+                margin: 0;
+            }
+            
+        }
+    }
+
+    .watchAgainRow{
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,78 @@
+.spotItemRegion{
+    height: 70vh;
+    background-image: url(../../images/Fakeflix/SpotItem/stangerThings_background.jpeg);
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+    background-position:bottom;
+    background-size: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+
+    .spotTitle{
+        img{
+            width: 100%;
+        }
+    }
+
+    .spotGenders div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            margin: 0;
+        }
+
+        span{
+            width: 3px;
+            height: 3px;
+            background-color: rgb(200, 57, 46);
+            border-radius: 2px;
+            margin: 4px 5px 0px 5px;
+        }
+
+    }
+
+    .spotButtons div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .listButton,
+        .infoButton{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            p{
+                margin: 0;
+            }
+            img{
+                width: 30px;
+            }
+        }
+
+        .playButton{
+            height: 100%;
+            margin: 10px 30px;
+            .btn{
+                display: flex;
+                align-items: center;
+                background-color: white;
+                p{
+                    margin: 0px 5px;
+                }
+                img{
+                    width: 30px
+                }
+            }
+            
+        }
+    }
+
+}
