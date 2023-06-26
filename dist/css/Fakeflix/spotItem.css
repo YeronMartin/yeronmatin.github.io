@@ -1,0 +1,54 @@
+.spotItemRegion {
+  height: 70vh;
+  background-image: url(../../images/Fakeflix/SpotItem/stangerThings_background.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column; }
+  .spotItemRegion .spotTitle img {
+    width: 100%; }
+  .spotItemRegion .spotGenders div {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .spotItemRegion .spotGenders div p {
+      margin: 0; }
+    .spotItemRegion .spotGenders div span {
+      width: 3px;
+      height: 3px;
+      background-color: #c8392e;
+      border-radius: 2px;
+      margin: 4px 5px 0px 5px; }
+  .spotItemRegion .spotButtons div {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .spotItemRegion .spotButtons div .listButton,
+    .spotItemRegion .spotButtons div .infoButton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .spotItemRegion .spotButtons div .listButton p,
+      .spotItemRegion .spotButtons div .infoButton p {
+        margin: 0; }
+      .spotItemRegion .spotButtons div .listButton img,
+      .spotItemRegion .spotButtons div .infoButton img {
+        width: 30px; }
+    .spotItemRegion .spotButtons div .playButton {
+      height: 100%;
+      margin: 10px 30px; }
+      .spotItemRegion .spotButtons div .playButton .btn {
+        display: flex;
+        align-items: center;
+        background-color: white; }
+        .spotItemRegion .spotButtons div .playButton .btn p {
+          margin: 0px 5px; }
+        .spotItemRegion .spotButtons div .playButton .btn img {
+          width: 30px; }
+
+/*# sourceMappingURL=spotItem.css.map */

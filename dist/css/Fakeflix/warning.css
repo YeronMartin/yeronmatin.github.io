@@ -1,0 +1,17 @@
+.warning .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+  .warning .row .title {
+    height: 30px;
+    display: flex;
+    justify-content: center; }
+    .warning .row .title img {
+      text-align: center;
+      height: 100%; }
+  .warning .row p {
+    text-align: center; }
+
+/*# sourceMappingURL=warning.css.map */

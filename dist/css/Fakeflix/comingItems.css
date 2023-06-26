@@ -1,0 +1,98 @@
+.comingItem {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 12.5px 0px; }
+  .comingItem .btn {
+    padding: 0; }
+  .comingItem .boxImg img {
+    width: 100%; }
+  .comingItem .headerItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 10px;
+    width: 100%; }
+    .comingItem .headerItem .titleBox {
+      width: 50%; }
+      .comingItem .headerItem .titleBox img {
+        width: 100%; }
+    .comingItem .headerItem .buttons {
+      display: flex;
+      justify-content: center;
+      width: 30%; }
+      .comingItem .headerItem .buttons .remindButton,
+      .comingItem .headerItem .buttons .shareButton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px; }
+        .comingItem .headerItem .buttons .remindButton p,
+        .comingItem .headerItem .buttons .shareButton p {
+          margin: 0;
+          font-size: 0.9em; }
+        .comingItem .headerItem .buttons .remindButton img,
+        .comingItem .headerItem .buttons .shareButton img {
+          width: 40%; }
+  .comingItem .state p {
+    margin: 0; }
+  .comingItem .name p {
+    margin: 0;
+    font-size: 1.2em;
+    color: white; }
+  .comingItem .description {
+    text-align: justify; }
+  .comingItem .genres ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .comingItem .genres ul li p {
+      font-size: 0.8em;
+      color: white;
+      margin: 0; }
+    .comingItem .genres ul li span {
+      display: block;
+      width: 3px;
+      height: 3px;
+      background-color: #272727;
+      border-radius: 2px;
+      margin: 0px 5px 0px 5px; }
+
+.comingItem:hover {
+  background-color: #121212; }
+
+@media only screen and (max-width: 400px) {
+  .comingItem .titleBox {
+    width: 100% !important; }
+  .comingItem .headerItem {
+    flex-direction: column; }
+    .comingItem .headerItem .buttons {
+      width: 100%;
+      justify-content: start; }
+      .comingItem .headerItem .buttons .remindButton img, .comingItem .headerItem .buttons .shareButton img {
+        width: 20px; }
+      .comingItem .headerItem .buttons .remindButton, .comingItem .headerItem .buttons .shareButton {
+        margin-left: 0px;
+        margin-right: 10px; }
+  .comingItem .description {
+    font-size: 1em; } }
+@media only screen and (max-width: 250px) {
+  .comingItem .titleBox {
+    width: 100% !important; }
+  .comingItem .headerItem {
+    flex-direction: column; }
+    .comingItem .headerItem .buttons {
+      width: 100%;
+      justify-content: start; }
+      .comingItem .headerItem .buttons .remindButton img, .comingItem .headerItem .buttons .shareButton img {
+        width: 15px; }
+      .comingItem .headerItem .buttons .remindButton, .comingItem .headerItem .buttons .shareButton {
+        margin-left: 0px;
+        margin-right: 10px; }
+  .comingItem .description {
+    font-size: 1em; } }
+
+/*# sourceMappingURL=comingItems.css.map */

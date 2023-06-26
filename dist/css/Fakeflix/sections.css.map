@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,cAAc;EACV,OAAO,EAAE,IAAI;;AAGjB,cAAc;EACV,OAAO,EAAE,IAAI;;AAGjB,gBAAgB;EACZ,OAAO,EAAE,IAAI;;AAGjB,YAAY;EACR,OAAO,EAAE,IAAI;;AAGjB,QAAQ;EACJ,OAAO,EAAE,IAAI;;AAGjB,yCAA0C;EACtC;;;;;gBAKc;IACV,OAAO,EAAE,IAAI;;EAGjB,QAAQ;IACJ,OAAO,EAAE,KAAK",
+"sources": ["../../scss/Fakeflix/sections.scss"],
+"names": [],
+"file": "sections.css"
+}

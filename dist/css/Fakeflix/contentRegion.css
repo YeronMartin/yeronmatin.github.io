@@ -1,0 +1,54 @@
+.contentRegion .row {
+  margin-top: 15px; }
+.contentRegion img {
+  height: 100%; }
+.contentRegion .btn {
+  padding: 0; }
+.contentRegion .owl-stage-outer .owl-stage {
+  height: 150px; }
+  .contentRegion .owl-stage-outer .owl-stage .owl-item {
+    height: 150px; }
+    .contentRegion .owl-stage-outer .owl-stage .owl-item .item {
+      height: 100%; }
+    .contentRegion .owl-stage-outer .owl-stage .owl-item .caratulaBox {
+      height: 150px;
+      position: relative; }
+      .contentRegion .owl-stage-outer .owl-stage .owl-item .caratulaBox .playButton {
+        position: absolute;
+        top: 50%;
+        height: 60px;
+        transform: translate(0%, -50%); }
+      .contentRegion .owl-stage-outer .owl-stage .owl-item .caratulaBox .caratula {
+        height: 100%; }
+.contentRegion .continueCarousel .owl-stage {
+  height: 190px; }
+  .contentRegion .continueCarousel .owl-stage .owl-item {
+    height: 190px; }
+    .contentRegion .continueCarousel .owl-stage .owl-item .item {
+      height: 100%; }
+    .contentRegion .continueCarousel .owl-stage .owl-item .caratula {
+      height: 150px; }
+.contentRegion .item {
+  position: relative; }
+  .contentRegion .item .progress {
+    height: 5px;
+    z-index: 1;
+    border-radius: 0;
+    background-color: #272727; }
+    .contentRegion .item .progress .progress-bar {
+      background-color: #c8392e; }
+  .contentRegion .item .itemInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+    background-color: #111111; }
+    .contentRegion .item .itemInfo img {
+      width: 20px !important;
+      filter: brightness(50%); }
+    .contentRegion .item .itemInfo p {
+      margin: 0; }
+.contentRegion .watchAgainRow {
+  margin-bottom: 15px; }
+
+/*# sourceMappingURL=contentRegion.css.map */
