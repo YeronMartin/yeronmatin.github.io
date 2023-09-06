@@ -10,9 +10,9 @@ export const Background = () => {
   const {background_state} = useContext(AppManagerContext);
 
   return (
-    <div className={'background'+ background_state + ' background'}>
+    <div className={'backgroundDown' + ' cloudBackground'}>
         <div className='white_background'>
-          {(windowSize[0] <900 )? <img className='cloud_1' src={cloud_1} alt='cloud'/> : <img className='cloud_1' src={cloud_2} alt='cloud'/>}
+          {(windowSize[0] <900 )? <img className='cloud_' src={cloud_1} alt='cloud'/> : <img className='cloud_1' src={cloud_2} alt='cloud'/>}
               
         </div>
     </div>

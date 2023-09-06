@@ -1,11 +1,12 @@
 .MetricItem {
   display: flex; }
   .MetricItem p {
-    color: #9AACB6; }
+    color: white; }
   .MetricItem .boxImg {
     width: 50px; }
     .MetricItem .boxImg img {
-      width: 100%; }
+      width: 100%;
+      filter: brightness(100); }
   .MetricItem .boxInfo {
     display: flex;
     flex-direction: column;

@@ -1,12 +1,14 @@
 .MetricItem{
     display: flex;
     p{
-        color: #9AACB6;
+        //color: #9AACB6;
+        color: white;
     }
     .boxImg{
         width: 50px;
         img{
             width: 100%;
+            filter: brightness(100);
         }
     }
     .boxInfo{

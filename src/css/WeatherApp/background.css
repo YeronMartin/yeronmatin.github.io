@@ -1,7 +1,8 @@
-.background {
+.cloudBackground {
   transition: 1s; }
 
 .backgroundUp {
+  background-color: #f4f4f4;
   overflow: hidden;
   position: absolute;
   top: 0;
