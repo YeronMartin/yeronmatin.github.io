@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/yeronmatin.github.io/static/css/main.773305f0.css",
-    "main.js": "/yeronmatin.github.io/static/js/main.2dfca9ac.js",
-    "static/media/cloud_2.svg": "/yeronmatin.github.io/static/media/cloud_2.d0bce660ac466772495849a540af6152.svg",
-    "static/media/cloud_1.svg": "/yeronmatin.github.io/static/media/cloud_1.ab1a05f34945e5504ded34c068d58f69.svg",
-    "static/media/windIcon.svg": "/yeronmatin.github.io/static/media/windIcon.6aee9efc6df893a832c976dec6ca4261.svg",
-    "static/media/pressureIcon.svg": "/yeronmatin.github.io/static/media/pressureIcon.7a89b6cef9fa98c606496ae2ce74c03e.svg",
-    "static/media/sunIcon.svg": "/yeronmatin.github.io/static/media/sunIcon.efbb97a88dd351f6536f11e7dc7b6c9a.svg",
-    "static/media/visibilityIcon.svg": "/yeronmatin.github.io/static/media/visibilityIcon.15bbab935c7fc51bb0f76c8fedfd76e2.svg",
-    "index.html": "/yeronmatin.github.io/index.html",
-    "static/media/humidityIcon.svg": "/yeronmatin.github.io/static/media/humidityIcon.149022a7a7a402b148d81110679eadae.svg",
-    "static/media/sunIcon_forecast.svg": "/yeronmatin.github.io/static/media/sunIcon_forecast.782bcee628ac252447a529f929af4997.svg",
-    "main.773305f0.css.map": "/yeronmatin.github.io/static/css/main.773305f0.css.map",
-    "main.2dfca9ac.js.map": "/yeronmatin.github.io/static/js/main.2dfca9ac.js.map"
+    "main.css": "/yeronmartin.github.io/static/css/main.773305f0.css",
+    "main.js": "/yeronmartin.github.io/static/js/main.558fbcfa.js",
+    "static/media/cloud_2.svg": "/yeronmartin.github.io/static/media/cloud_2.d0bce660ac466772495849a540af6152.svg",
+    "static/media/cloud_1.svg": "/yeronmartin.github.io/static/media/cloud_1.ab1a05f34945e5504ded34c068d58f69.svg",
+    "static/media/windIcon.svg": "/yeronmartin.github.io/static/media/windIcon.6aee9efc6df893a832c976dec6ca4261.svg",
+    "static/media/pressureIcon.svg": "/yeronmartin.github.io/static/media/pressureIcon.7a89b6cef9fa98c606496ae2ce74c03e.svg",
+    "static/media/sunIcon.svg": "/yeronmartin.github.io/static/media/sunIcon.efbb97a88dd351f6536f11e7dc7b6c9a.svg",
+    "static/media/visibilityIcon.svg": "/yeronmartin.github.io/static/media/visibilityIcon.15bbab935c7fc51bb0f76c8fedfd76e2.svg",
+    "index.html": "/yeronmartin.github.io/index.html",
+    "static/media/humidityIcon.svg": "/yeronmartin.github.io/static/media/humidityIcon.149022a7a7a402b148d81110679eadae.svg",
+    "static/media/sunIcon_forecast.svg": "/yeronmartin.github.io/static/media/sunIcon_forecast.782bcee628ac252447a529f929af4997.svg",
+    "main.773305f0.css.map": "/yeronmartin.github.io/static/css/main.773305f0.css.map",
+    "main.558fbcfa.js.map": "/yeronmartin.github.io/static/js/main.558fbcfa.js.map"
   },
   "entrypoints": [
     "static/css/main.773305f0.css",
-    "static/js/main.2dfca9ac.js"
+    "static/js/main.558fbcfa.js"
   ]
 }
