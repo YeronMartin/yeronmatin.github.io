@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEI,aAAI;EACA,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,KAAK;EAEb,oBAAM;IACF,MAAM,EAAE,IAAI;IACZ,OAAO,EAAE,IAAI;IACb,eAAe,EAAE,MAAM;IACvB,wBAAG;MACC,UAAU,EAAE,MAAM;MAClB,MAAM,EAAE,IAAI;EAIpB,eAAC;IACG,UAAU,EAAE,MAAM",
-"sources": ["../../scss/Fakeflix/warning.scss"],
-"names": [],
-"file": "warning.css"
-}

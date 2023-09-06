@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACA,cAAc;EACV,gBAAgB,EAFE,OAAY;;AAKlC,kBAAkB;EACd,MAAM,EAAE,KAAK;EACb,qBAAE;IACE,SAAS,EAAE,KAAK;IAChB,KAAK,EAAE,KAAK",
-"sources": ["../../scss/Fakeflix/main.scss"],
-"names": [],
-"file": "main.css"
-}
