@@ -1,0 +1,13 @@
+.SearchComponent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0px; }
+  .SearchComponent input[type="search"]::-webkit-search-decoration,
+  .SearchComponent input[type="search"]::-webkit-search-cancel-button,
+  .SearchComponent input[type="search"]::-webkit-search-results-button,
+  .SearchComponent input[type="search"]::-webkit-search-results-decoration {
+    display: none; }
+
+/*# sourceMappingURL=searchComponent.css.map */

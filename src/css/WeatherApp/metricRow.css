@@ -1,0 +1,23 @@
+.metricRow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 20px; }
+
+@media only screen and (min-width: 899px) {
+  .Datarow {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 40px 0px; }
+    .Datarow div.col-12 {
+      width: 50%; }
+    .Datarow .metricRow {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .Datarow .metricRow .MetricItem {
+        width: 50%;
+        margin: 10px 0px; } }
+
+/*# sourceMappingURL=metricRow.css.map */

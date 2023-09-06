@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACD,MAAM,EAAE,CAAC;EACT,WAAW,EAAE,gEAAgE;EAC7E,sBAAsB,EAAE,WAAW;EACnC,uBAAuB,EAAE,SAAS;;AAGpC,IAAK;EACH,WAAW,EAAE,kEACF",
+"sources": ["../../scss/WeatherApp/index.scss"],
+"names": [],
+"file": "index.css"
+}

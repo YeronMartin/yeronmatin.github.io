@@ -1,0 +1,29 @@
+.DMHeadline {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 20px 10px; }
+  .DMHeadline .ArrowButton {
+    width: 25px;
+    padding: 0;
+    filter: brightness(0.3); }
+    .DMHeadline .ArrowButton img {
+      width: 100%;
+      transform: rotate(180deg); }
+  .DMHeadline .infoUser p {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2em; }
+  .DMHeadline .infoUser .name {
+    color: black;
+    font-size: 1.4em; }
+  .DMHeadline .infoUser .state {
+    color: #444444; }
+  .DMHeadline .imgUser {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: aquamarine;
+    overflow: hidden; }
+
+/*# sourceMappingURL=DMHeadline.css.map */

@@ -1,0 +1,17 @@
+.forecastRow {
+  display: flex;
+  justify-content: center;
+  padding: 10px 40px; }
+  .forecastRow ul {
+    list-style-type: none;
+    padding: 0;
+    width: 400px; }
+    .forecastRow ul li {
+      display: flex;
+      justify-content: center; }
+
+@media only screen and (min-width: 899px) {
+  .forecastRow {
+    padding: 10px; } }
+
+/*# sourceMappingURL=forecastRow.css.map */

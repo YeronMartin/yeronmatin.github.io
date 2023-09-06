@@ -1,0 +1,36 @@
+.searchForm{
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+
+    width: 100%;
+    .form-control{
+        width: 0%;
+        font-size: 1.4em;
+        padding: 10px 0px;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        background: rgba(white, 0.2);
+        color: white;
+        border-radius: 10px;
+        transition: 0.5s;
+
+
+    }
+    ::placeholder {
+        color: white;
+      }
+    
+    input.hidden{
+        width: 100%;
+        padding: 10px 20px;
+    }
+}
+
+.searchForm:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}

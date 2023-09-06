@@ -1,0 +1,23 @@
+.forecastRow{
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px;
+    
+    ul{
+        list-style-type: none;
+        padding: 0;
+        width: 400px;
+        li{
+            display: flex;
+            justify-content: center;
+        }
+
+    }
+}
+
+@media only screen and (min-width: 899px){
+    .forecastRow{
+    padding: 10px;
+
+    }
+}

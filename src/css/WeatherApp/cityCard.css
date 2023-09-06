@@ -1,0 +1,29 @@
+.CityCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px; }
+  .CityCard p {
+    color: white;
+    margin: 0; }
+  .CityCard .city {
+    font-size: 2em; }
+  .CityCard .cityInfo {
+    display: flex;
+    align-items: center; }
+    .CityCard .cityInfo .temp {
+      font-size: 1.7em; }
+    .CityCard .cityInfo .boxImg {
+      margin-left: 10px;
+      width: 64px; }
+      .CityCard .cityInfo .boxImg img {
+        width: 100%; }
+
+.cardFocus {
+  box-shadow: 0px 2px 7px 0px #BEECFF; }
+
+/*# sourceMappingURL=cityCard.css.map */

@@ -1,0 +1,33 @@
+.headerRegion form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  width: 60%;
+  z-index: 1; }
+  .headerRegion form input {
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 1.2em; }
+  .headerRegion form input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: none; }
+  .headerRegion form button {
+    padding: 0%; }
+    .headerRegion form button img {
+      height: 30px;
+      margin-right: 5px; }
+
+@media only screen and (max-width: 767px) {
+  .headerRegion form {
+    width: auto;
+    margin: 0% 10%;
+    justify-self: center;
+    align-self: center; } }
+
+/*# sourceMappingURL=searchForm.css.map */

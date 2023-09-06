@@ -1,0 +1,113 @@
+.background {
+  transition: 1s; }
+
+.backgroundUp {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: flex;
+  align-items: end; }
+  .backgroundUp .cloud_1 {
+    position: absolute;
+    z-index: -2;
+    right: 30%;
+    top: 75%;
+    transform: translate(50%, -70%);
+    overflow: hidden;
+    scale: 1; }
+  .backgroundUp .white_background {
+    background-color: #f4f4f4 !important;
+    width: 100%;
+    height: 61%; }
+
+.backgroundDown {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: flex;
+  align-items: end; }
+  .backgroundDown .cloud_1 {
+    position: absolute;
+    z-index: -2;
+    right: 30%;
+    top: 130%;
+    transform: translate(50%, -70%);
+    overflow: hidden;
+    scale: 1; }
+  .backgroundDown .white_background {
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 2%; }
+
+@media only screen and (min-width: 650px) and (max-width: 899px) {
+  .backgroundDown {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+    align-items: end; }
+    .backgroundDown .cloud_1 {
+      position: absolute;
+      z-index: -2;
+      right: 30%;
+      top: 140%;
+      transform: translate(50%, -70%);
+      overflow: hidden;
+      width: 200%; }
+
+  .backgroundUp .cloud_1 {
+    position: absolute;
+    z-index: -2;
+    right: 30%;
+    top: 80%;
+    transform: translate(50%, -70%);
+    overflow: hidden;
+    width: 200%; } }
+@media only screen and (min-width: 750px) and (max-width: 899px) {
+  .backgroundUp .cloud_1 {
+    position: absolute;
+    z-index: -2;
+    right: 29%;
+    top: 88%;
+    transform: translate(50%, -70%);
+    overflow: hidden;
+    width: 200%; } }
+@media only screen and (min-width: 899px) {
+  .backgroundDown,
+  .backgroundUp {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+    align-items: end; }
+    .backgroundDown .cloud_1,
+    .backgroundUp .cloud_1 {
+      position: absolute;
+      z-index: -2;
+      right: 60%;
+      top: 173%;
+      /* transform: translate(50%, -70%); */
+      overflow: hidden;
+      width: 170%; }
+    .backgroundDown .white_background,
+    .backgroundUp .white_background {
+      width: 100%;
+      height: 0%; } }
+
+/*# sourceMappingURL=background.css.map */

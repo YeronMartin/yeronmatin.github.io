@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,yEAAiE;AAEjE,mCAA2B;AAC3B,sCAA8B;AAC9B,mCAA2B;AAC3B,uCAA+B;AAC/B,uCAA+B;AAC/B,wCAAgC",
+"sources": ["../../scss/ShopApp/style.scss"],
+"names": [],
+"file": "style.css"
+}

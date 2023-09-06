@@ -1,0 +1,19 @@
+.maxMin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        color: #9AACB6;
+        margin: 0px 10px;
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 899px) {
+    .maxMin{
+        p{
+            color: white;
+            font-size: 1.4em;
+        }
+    }
+}

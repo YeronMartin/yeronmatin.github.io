@@ -1,0 +1,39 @@
+.breadcrumb-Box {
+  --bs-breadcrumb-divider: '>';
+  background: rgba(255, 255, 255, 0.3); }
+  .breadcrumb-Box nav {
+    padding: 0; }
+
+.breadcrumb {
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  font-size: 1.3em; }
+
+.breadcrumb li.active a {
+  color: green; }
+
+.breadcrumb li a {
+  color: #888; }
+
+@media only screen and (max-width: 650px) {
+  .breadcrumb a {
+    font-size: 0.9em; } }
+.breadcrumb-Box nav {
+  padding: 0; }
+
+.breadcrumb {
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  font-size: 1.3em; }
+
+.breadcrumb li.active a {
+  color: green; }
+
+.breadcrumb li a {
+  color: #888; }
+
+@media only screen and (max-width: 650px) {
+  .breadcrumb a {
+    font-size: 0.9em; } }
+
+/*# sourceMappingURL=breadcrumb.css.map */
