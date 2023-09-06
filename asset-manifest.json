@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yeronmatin.github.io/build/static/css/main.773305f0.css",
-    "main.js": "/yeronmatin.github.io/build/static/js/main.d8372eb9.js",
+    "main.css": "/yeronmatin.github.io/build/static/css/main.638c3f9e.css",
+    "main.js": "/yeronmatin.github.io/build/static/js/main.9b1d16de.js",
     "static/media/cloud_2.svg": "/yeronmatin.github.io/build/static/media/cloud_2.d0bce660ac466772495849a540af6152.svg",
     "static/media/cloud_1.svg": "/yeronmatin.github.io/build/static/media/cloud_1.ab1a05f34945e5504ded34c068d58f69.svg",
     "static/media/windIcon.svg": "/yeronmatin.github.io/build/static/media/windIcon.6aee9efc6df893a832c976dec6ca4261.svg",
@@ -11,11 +11,11 @@
     "index.html": "/yeronmatin.github.io/build/index.html",
     "static/media/humidityIcon.svg": "/yeronmatin.github.io/build/static/media/humidityIcon.149022a7a7a402b148d81110679eadae.svg",
     "static/media/sunIcon_forecast.svg": "/yeronmatin.github.io/build/static/media/sunIcon_forecast.782bcee628ac252447a529f929af4997.svg",
-    "main.773305f0.css.map": "/yeronmatin.github.io/build/static/css/main.773305f0.css.map",
-    "main.d8372eb9.js.map": "/yeronmatin.github.io/build/static/js/main.d8372eb9.js.map"
+    "main.638c3f9e.css.map": "/yeronmatin.github.io/build/static/css/main.638c3f9e.css.map",
+    "main.9b1d16de.js.map": "/yeronmatin.github.io/build/static/js/main.9b1d16de.js.map"
   },
   "entrypoints": [
-    "static/css/main.773305f0.css",
-    "static/js/main.d8372eb9.js"
+    "static/css/main.638c3f9e.css",
+    "static/js/main.9b1d16de.js"
   ]
 }
